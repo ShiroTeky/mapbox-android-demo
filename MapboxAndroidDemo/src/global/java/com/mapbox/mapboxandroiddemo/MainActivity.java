@@ -97,6 +97,7 @@ import com.mapbox.mapboxandroiddemo.examples.labs.MagicWindowKotlinActivity;
 import com.mapbox.mapboxandroiddemo.examples.labs.MapFogBackgroundActivity;
 import com.mapbox.mapboxandroiddemo.examples.labs.MarkerFollowingRouteActivity;
 import com.mapbox.mapboxandroiddemo.examples.labs.MovingIconWithTrailingLineActivity;
+import com.mapbox.mapboxandroiddemo.examples.labs.NextBusIntegrationActivity;
 import com.mapbox.mapboxandroiddemo.examples.labs.PictureInPictureActivity;
 import com.mapbox.mapboxandroiddemo.examples.labs.PulsingLayerOpacityColorActivity;
 import com.mapbox.mapboxandroiddemo.examples.labs.RecyclerViewDirectionsActivity;
@@ -1351,6 +1352,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
       new Intent(MainActivity.this, BiometricFingerprintLayerUnlockActivity.class),
       null,
       R.string.activity_lab_biometric_fingerprint_url, true, BuildConfig.MIN_SDK_VERSION));
+
+    exampleItemModels.add(new ExampleItemModel(
+        R.id.nav_lab,
+        R.string.activity_lab_nextbus_integration_title,
+        R.string.activity_lab_nextbus_integration_description,
+        new Intent(MainActivity.this, NextBusIntegrationActivity.class),
+        null,
+        R.string.activity_lab_nextbus_integration_url, true, BuildConfig.MIN_SDK_VERSION));
 
     exampleItemModels.add(new ExampleItemModel(
       R.id.nav_dds,

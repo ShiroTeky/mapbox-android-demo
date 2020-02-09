@@ -460,4 +460,10 @@
     <string name="static_image_api_notification_seekbar_feet">%1$d feet</string>
     <string name="static_image_api_notification_no_wifi_nearby">Zero wifi locations nearby</string>
 
+    <!-- Nextbus integration-->
+    <string name="nextbus_integration_toast_could_not_load_agency">Couldn\'t load agency list.</string>
+    <string name="nextbus_integration_toast_select_agency">Select a transit agency from the spinner menu.</string>
+    <string name="nextbus_integration_toast_no_routes">No routes for this agency. Try selecting a different agency.</string>
+    <string name="nextbus_integration_toast_no_vehicles">No vehicles found for this route.</string>
+    <string name="nextbus_integration_toast_could_not_draw_route">Couldn\'t draw this route. Try selecting a different route.</string>
 </resources>
